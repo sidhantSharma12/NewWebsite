@@ -23,7 +23,7 @@ export default class Project extends Component {
 
                   <div className="project project-color">
 
-                    <p>Example project 3</p>
+                    <p>Example project 7</p>
                   </div>
 
                   <div className="project project-color">
