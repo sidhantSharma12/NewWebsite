@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import Avatar from 'react-avatar';
-import ScrollableAnchor from 'react-scrollable-anchor'
 import 'font-awesome/css/font-awesome.css'
 import Section from './section';         
 
 export default class Top extends Component {
   render() {
     return (
-
-          <ScrollableAnchor id={'top'}>
             <Section styles='hero'>
               <div className='background-image' style={{backgroundImage: `url(${process.env.PUBLIC_URL}/img/background.jpg)`}}></div>
               <div><Avatar src={`${process.env.PUBLIC_URL}/img/sid.png`} size={200} round={true} /></div>
@@ -21,7 +18,6 @@ export default class Top extends Component {
               </div>
               <a href='#hire-me' className='btn'>Hire Me!</a>
             </Section>
-          </ScrollableAnchor>
           )
   }
 }
