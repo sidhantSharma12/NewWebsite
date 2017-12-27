@@ -570,16 +570,17 @@ footer .copyright {
   display: flex;
   flex-wrap: wrap;
   margin: 3em auto;
+  color: white;
 }
 
 .project {
-  height: 300px; 
+  height: 450px; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex: 1 300px;
+  flex: 1 250px;
   padding: 2em;
   margin: 1.2em;
   border-radius: .5em;
@@ -592,14 +593,9 @@ footer .copyright {
   backface-visibility: hidden;
 }
 
-.project a {
-  text-decoration: none;
-  color: white;
-  display: block;
-}
-
 .project-color {
-  background: #339933;
+  background: #1c4e8a;
+  opacity: 1 !important;
 }
 
 @media (min-width: 960px) {
@@ -616,4 +612,41 @@ footer .copyright {
 
 .overriding{
 	padding: 100px 50px 0 50px !important;
+}
+
+.project-pic{
+	height: 160px;
+	width: 70%;
+	margin-bottom: 10px;
+}
+
+.project-title{
+	color: white !important;
+	margin-bottom: 0 !important;
+}
+
+.project-container{
+	background-color: black !important;
+}
+
+.underliner{
+	height: 4px;
+    width: 80px;
+    margin: 18px auto 15px auto;
+    background-color: #ffffff;
+}
+
+.frameworks{
+	color: #B6B7BB;
+	margin-bottom: 10px !important;
+	padding: 0 !important;
+}
+
+.project-name{
+	margin-bottom: 0 !important;
+	padding: 0 !important;
+}
+
+.project-info{
+	text-align: justify;
 }
