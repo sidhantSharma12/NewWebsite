@@ -53,7 +53,7 @@ export default class Project extends Component {
                     <img className="project-pic" src={`${process.env.PUBLIC_URL}/img/memorymanagement.png`}/>
                     <div className="project-info">Implemented two memory management algorithms: Best fit and Worst fit. Done by maintaining a linked list for memory which has been allocated and not allocated</div>
                   </a>
-                  <a className="project project-color">
+                  <a href="https://github.com/sidhantSharma12/Producer-Consumer-Problem" className="project project-color">
                     <p className="project-name">Producer Consumer Problem</p>
                     <p className="frameworks">C</p>
                     <img className="project-pic" src={`${process.env.PUBLIC_URL}/img/producerconsumer.png`}/>
