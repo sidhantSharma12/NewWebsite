@@ -7,7 +7,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 export default class HireMe extends Component {
   render() {
     return (
-              <ScrollableAnchor id={'hire-me'}>		
+              <ScrollableAnchor id={'contact-me'}>		
 	            <Section styles='contact'>
 	          		<h3 className='title'>Contact me for opportunities!</h3>
 	          		<ContactForm />

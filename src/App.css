@@ -138,7 +138,7 @@ header{
 	align-items: center;
 	color: #fff;
 	padding: 20px 100px 20px;
-	background-color: rgba(228,0,0,.8);
+	background-color: #1a1d1f;
 }
 
 header h2{
@@ -594,7 +594,7 @@ footer .copyright {
 }
 
 .project-color {
-  background: #1c4e8a;
+  background: #183c67;
   opacity: 1 !important;
 }
 
@@ -649,4 +649,13 @@ footer .copyright {
 
 .project-info{
 	text-align: justify;
+}
+
+.top-contact{
+	color: black !important;
+	background-color: #f3f2f2 !important;
+}
+
+.send-btn{
+	background-color: #f5802d !important;
 }

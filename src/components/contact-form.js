@@ -46,7 +46,7 @@ export default class ContactForm extends Component {
         <input type='text' name='name' placeholder='Name' value={this.state.name} onChange={this.handleChange} />
         <input type='text' name='email' placeholder='Email' value={this.state.email} onChange={this.handleChange} />
         <textarea name='message' placeholder='How can I help you?' value={this.state.message} onChange={this.handleChange} />
-        <button type='submit' className='btn'>Send</button>
+        <button type='submit' className='btn send-btn'>Send</button>
         <AlertContainer ref={a => this.msg = a} {...this.alertOptions} />
       </form>
     )
