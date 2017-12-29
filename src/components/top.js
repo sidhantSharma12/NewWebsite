@@ -16,7 +16,6 @@ export default class Top extends Component {
                 <a href='https://github.com/sidhantSharma12' className='btn-icon' target='_blank'><i className='fa fa-github-square'></i></a>
                 <a href='https://www.linkedin.com/in/sidhant-sharma-4a2a3a147' className='btn-icon' target='_blank'><i className='fa fa-linkedin-square'></i></a>
               </div>
-              <a href='#contact-me' className='btn top-contact'>Contact Me!</a>
             </Section>
           )
   }
