@@ -653,4 +653,9 @@ footer .copyright {
 
 .send-btn{
 	background-color: #f5802d !important;
+	cursor: pointer;
+}
+
+.send-btn:hover {
+	 background-color: #e86d16 !important; 
 }
