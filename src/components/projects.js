@@ -21,19 +21,19 @@ export default class Project extends Component {
                     <p className="project-name">Rent Me</p>
                     <p className="frameworks"> React, Node.js, MondoDB</p>
                     <img className="project-pic" src={`${process.env.PUBLIC_URL}/img/rentme.png`}/>
-                    <div className="project-info"> An application which allows users to rent household items </div>
+                    <div className="project-info"> Built an application which allows rental of various household and electronic appliances, using Cloudinary for storage of images</div>
                   </a>
                   <a href="https://github.com/sidhantSharma12/LetsMeet" className="project project-color">
-                    <p className="project-name">Lets Meet</p>
+                    <p className="project-name">Rate It</p>
                     <p className="frameworks"> React Native, Flask, MySQL</p>
                     <img className="project-pic" src={`${process.env.PUBLIC_URL}/img/letsmeet.png`}/>
-                    <div className="project-info"> An application which allows users to mark famous places</div>
+                    <div className="project-info"> Allows users to mark and review popular events on a map. Users can search and filter these activities based on the proximity from their location </div>
                   </a>
                   <a href="https://github.com/sidhantSharma12/Food-Website" className="project project-color">
-                    <p className="project-name">Hack The Six 2017</p>
-                    <p className="frameworks"> React, Node.js, Mongoose</p>
+                    <p className="project-name">Foodie-Hack The Six 2017</p>
+                    <p className="frameworks"> React, Node.js, Express</p>
                     <img className="project-pic" src={`${process.env.PUBLIC_URL}/img/food.png`}/>
-                    <div className="project-info"> An application which allows people to buy and sell homemade food </div>
+                    <div className="project-info"> An application which gives home chefs a platform to market and sell their food. Users can filter chefs by location and cuisine type </div>
                   </a>
                   <a href="https://github.com/sidhantSharma12/Arduino-Vacuum-Cleaner" className="project project-color">
                     <p className="project-name">Arduino Vacuum Cleaner</p>
