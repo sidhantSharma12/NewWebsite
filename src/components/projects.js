@@ -27,7 +27,7 @@ export default class Project extends Component {
                     <p className="project-name">Rate It</p>
                     <p className="frameworks"> React Native, Flask, MySQL</p>
                     <img className="project-pic" src={`${process.env.PUBLIC_URL}/img/letsmeet.png`}/>
-                    <div className="project-info"> Users mark and review popular events on a map. Users can search and filter these activities based on the proximity from their location </div>
+                    <div className="project-info"> Users mark and review popular events on a map. They can search and filter these activities based on the proximity from their location </div>
                   </a>
                   <a href="https://github.com/sidhantSharma12/Food-Website" className="project project-color">
                     <p className="project-name">Foodie-Hack The Six 2017</p>
