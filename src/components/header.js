@@ -7,7 +7,7 @@ const Header = () => {
   		<nav>
         <li><a href='#background'>Background</a></li>
         <li><a href='#projects'>Projects</a></li>
-        <li><a href={`${process.env.PUBLIC_URL}/Resume_software_3a.pdf`}>Resume</a></li>
+        <li><a href={`${process.env.PUBLIC_URL}/Resume_software.pdf`}>Resume</a></li>
         <li><a href='#contact-me'>Contact</a></li>
   		</nav>
   	</header>
