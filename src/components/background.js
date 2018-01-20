@@ -11,7 +11,7 @@ export default class Background extends Component {
               <h3 className='title'>Who am I?</h3>
               <p className="background-description">I am a software developer currently pursuing my undergrad in Computer Engineering at the University of Waterloo. </p>
               <p className="background-description">My goal is to use technology to create applications that make people's lives easier, simpler, and more fun.  In my spare time, I enjoy coding, taking photos, and playing cricket. </p>
-              <p className="background-description">For employment opportunities, please see the contact form at the bottom of the site. Alternatively, you can email me directly at sidhant0312@gmail.com.</p>     
+              <p className="background-description more-margin">For employment opportunities, please see the contact form at the bottom of the site. Alternatively, you can email me directly at sidhant0312@gmail.com.</p>     
            </Section>
          </ScrollableAnchor>
         );
