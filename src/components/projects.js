@@ -15,7 +15,7 @@ export default class Project extends Component {
                      <p className="project-name">Socket Programming</p>
                      <p className="frameworks"> C </p>
                      <img className="project-pic" src={`${process.env.PUBLIC_URL}/img/proxy.png`}/>
-                     <div className="project-info"> Created reverse proxy in C which can handle multiple client and server requests simultaneously</div>
+                     <div className="project-info exception"> Created reverse proxy in C which can handle multiple client and server requests simultaneously</div>
                   </a>
                   <a href="https://github.com/sidhantSharma12/Rent-Me" className="project project-color">
                     <p className="project-name">Rent Me</p>
